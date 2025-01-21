@@ -3,13 +3,16 @@
     x:Class="RobertoGuañaExamen_3P.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:RobertoGuañaExamen_3P"
-    Shell.FlyoutBehavior="Disabled"
+    xmlns:local="clr-namespace:RobertoGuañaExamen3P.View"
     Title="RobertoGuañaExamen_3P">
 
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+    <TabBar>
+        <ShellContent Title="Buscar" ContentTemplate="{DataTemplate views:SearchPage}" />
+        <ShellContent Title="Mis Películas" ContentTemplate="{DataTemplate views:MoviesPage}" />
+    </TabBar>
 
 </Shell>
