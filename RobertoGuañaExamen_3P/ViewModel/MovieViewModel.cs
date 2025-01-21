@@ -2,6 +2,7 @@
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using RobertoGuañaExamen_3P.DataBase;
+using RobertoGuañaExamen_3P.Models;
 using RobertoGuañaExamen_3P.Services;
 
 using System;

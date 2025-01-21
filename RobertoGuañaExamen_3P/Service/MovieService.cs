@@ -1,10 +1,10 @@
-﻿using System.Net.Http;
+﻿using Newtonsoft.Json;
+using RobertoGuañaExamen_3P.Models;
+using System.Net.Http;
 using System.Net.Http.Json;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
-using Android.Graphics;
-using MovieSearchApp.Models;
-using Newtonsoft.Json;
+
 
 namespace RobertoGuañaExamen_3P.Services
 {
@@ -30,7 +30,7 @@ namespace RobertoGuañaExamen_3P.Services
                         MainActor = (string)movieData.actors[0],
                         Awards = (string)movieData.awards,
                         Website = (string)movieData.website,
-                        Scordova = "RGuaña"
+                        RGuaña = "RGuaña"
                     };
                 }
 

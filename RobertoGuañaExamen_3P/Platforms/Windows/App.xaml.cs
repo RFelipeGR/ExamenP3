@@ -19,6 +19,11 @@ namespace RobertoGuañaExamen_3P.WinUI
             this.InitializeComponent();
         }
 
+        private void InitializeComponent()
+        {
+            throw new NotImplementedException();
+        }
+
         protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
     }
 

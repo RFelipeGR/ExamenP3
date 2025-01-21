@@ -1,10 +1,10 @@
 ﻿
     using SQLite;
-    using MovieSearchApp.Models;
     using System.Threading.Tasks;
     using System.Collections.Generic;
+using RobertoGuañaExamen_3P.Models;
 
-    namespace RobertoGuañaExamen_3P.DataBase
+namespace RobertoGuañaExamen_3P.DataBase
 {
         public class DatabaseService
         {
