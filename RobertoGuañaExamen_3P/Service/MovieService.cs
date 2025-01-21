@@ -6,7 +6,7 @@ using Android.Graphics;
 using MovieSearchApp.Models;
 using Newtonsoft.Json;
 
-namespace RobertoGuañaExamen3P.Services
+namespace RobertoGuañaExamen_3P.Services
 {
     public class MovieService
     {

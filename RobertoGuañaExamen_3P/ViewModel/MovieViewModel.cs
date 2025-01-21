@@ -1,14 +1,14 @@
 ﻿
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
-using MovieSearchApp.Models;
-using MovieSearchApp.Services;
-using RobertoGuañaExamen3P.Services;
+using RobertoGuañaExamen_3P.DataBase;
+using RobertoGuañaExamen_3P.Services;
+
 using System;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 
-namespace RobertoGuañaExamen3P.ViewModels
+namespace RobertoGuañaExamen_3P.ViewModels
 {
     public partial class MovieViewModel : ObservableObject
     {

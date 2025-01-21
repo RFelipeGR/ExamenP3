@@ -1,7 +1,7 @@
 
 using Microsoft.Maui.Controls;
 
-namespace RobertoGuañaExamen3P.View;
+namespace RobertoGuañaExamen_3P.View;
 
 public partial class SearchPage : ContentPage
 {

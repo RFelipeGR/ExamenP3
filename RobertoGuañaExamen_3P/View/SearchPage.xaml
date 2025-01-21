@@ -1,7 +1,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Title="Buscar Películas"
-             x:Class="RobertoGuañaExamen3P.View.SearchPage">
+             x:Class="RobertoGuañaExamen_3P.View.SearchPage">
     
     <VerticalStackLayout>
         <Entry x:Name="robertoguaña"
